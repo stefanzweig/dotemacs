@@ -47,8 +47,8 @@
 
 
 (package 'smex)
+(package 'expand-region)
 ; the following packages are marked by stefan
-; (package 'expand-region)
 ; (package 'ag)
 ; (package 'projectile)
 ; (package 'browse-kill-ring+)

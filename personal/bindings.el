@@ -67,6 +67,7 @@
 (global-set-key (kbd "C-<f8>") 'align)
 (global-set-key (kbd "S-<f8>") 'align-current)
 (global-set-key (kbd "M-<f8>") 'align-regexp)
+(global-set-key (kbd "<f9>") 'er/expand-region)
 ;; <f10> for system use
 (global-set-key (kbd "<f11>") 'prelude-copy-file-name-to-clipboard)
 (global-set-key (kbd "C-<f11>") 'xah-search-current-word)
