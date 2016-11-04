@@ -28,6 +28,8 @@
 (personal 'server-mode)
 (personal 'shell-mode)
 (personal 'tabs)
+(personal 'dash)
+(personal 'solarized)
 (personal 'theme)
 (personal 'utf-8)
 (personal 'zoom)

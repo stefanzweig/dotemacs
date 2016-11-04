@@ -1,6 +1,6 @@
 ;;; Theme customization
 
-(load-theme 'wombat)
+(load-theme 'solarized-light t)
 
 (set-cursor-color "orange")
 (set-face-attribute 'region nil :background "cornflower blue")
