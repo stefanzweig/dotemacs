@@ -31,6 +31,8 @@
 (personal 'dash)
 (personal 'solarized)
 (personal 'theme)
+(personal 'color-moccur)
+(personal 'moccur-edit)
 (personal 'utf-8)
 (personal 'zoom)
 (personal 'zweig)
