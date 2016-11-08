@@ -146,3 +146,7 @@ Version 2016-06-18"
     (end-of-line)
     (forward-char)
     ))
+
+(defun zweig/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi))
+(add-hook 'python-mode-hook 'zweig/python-mode-hook)

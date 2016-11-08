@@ -69,3 +69,5 @@
 
 ;; zap-up-to-char, forward-to-word, backward-to-word, etc
 (require 'misc)
+
+(add-hook 'after-init-hook 'global-company-mode)

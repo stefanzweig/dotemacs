@@ -3,6 +3,7 @@
 
 (load "~/.emacs.d/personal/defuns")
 
+
 ;; self managed
 ;; ------------------
 
@@ -48,6 +49,7 @@
 
 (package 'smex)
 (package 'expand-region)
+(package 'company)
 ; the following packages are marked by stefan
 ; (package 'ag)
 ; (package 'projectile)
