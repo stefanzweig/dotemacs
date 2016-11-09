@@ -71,3 +71,9 @@
 (require 'misc)
 
 (add-hook 'after-init-hook 'global-company-mode)
+
+;; yasnippet
+(add-to-list 'load-path
+               "~/.emacs.d/vendor/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
