@@ -6,6 +6,12 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 
+;;; currently python and sh are supported.
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (sh . t)))
+
 ;; (global-set-key (kbd "C-c r") 'remember)
 ;; (add-hook 'remember-mode-hook 'org-remember-apply-template)
 ;; (setq org-remember-templates
