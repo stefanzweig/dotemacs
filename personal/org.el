@@ -9,12 +9,21 @@
 (setq org-confirm-babel-evaluate nil
       org-src-fontify-natively t
       org-src-tab-acts-natively t)
-      
+
 ;;; currently python and sh are supported.
 (org-babel-do-load-languages
  'org-babel-load-languages
- '((python . t)
-   (sh . t)))
+ '((sh         . t)
+   (js         . t)
+   (emacs-lisp . t)
+   (perl       . t)
+   (scala      . t)
+   (clojure    . t)
+   (python     . t)
+   (ruby       . t)
+   (dot        . t)
+   (css        . t)
+   (plantuml   . t)))
 
 ;; (global-set-key (kbd "C-c r") 'remember)
 ;; (add-hook 'remember-mode-hook 'org-remember-apply-template)
