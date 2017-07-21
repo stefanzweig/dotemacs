@@ -6,8 +6,10 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 
-(setq org-confirm-babel-evaluate nil)
-
+(setq org-confirm-babel-evaluate nil
+      org-src-fontify-natively t
+      org-src-tab-acts-natively t)
+      
 ;;; currently python and sh are supported.
 (org-babel-do-load-languages
  'org-babel-load-languages
