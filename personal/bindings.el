@@ -91,3 +91,4 @@
 (global-unset-key (kbd "<down>"))
 
 (global-set-key (kbd "<C-tab>") 'company-complete)
+(global-set-key (kbd "C-x g") 'magit-status)
