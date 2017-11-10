@@ -1,6 +1,7 @@
 (setq custom-file "~/.emacs.d/personal/custom.el")
 (load custom-file 'noerror)
 
+(setq initial-scratch-message nil)
 (load "~/.emacs.d/personal/defuns")
 
 
@@ -41,7 +42,7 @@
 ;; elpa managed
 ;; ------------------
 (setq package-archives '(("gnu"   . "http://elpa.zilongshanren.com/gnu/")
-	                     ("org-cn"   . "http://elpa.zilongshanren.com/org/")
+                       ("org-cn"   . "http://elpa.zilongshanren.com/org/")
                          ("melpa" . "http://elpa.zilongshanren.com/melpa/")))
 (package-initialize)
 (when (not package-archive-contents) (package-refresh-contents))
