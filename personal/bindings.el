@@ -85,10 +85,11 @@
 (global-set-key (kbd "s-\\") 'fixup-whitespace)
 
 ;; Help teach to unlearn the arrow keys
-(global-unset-key (kbd "<left>"))
-(global-unset-key (kbd "<right>"))
-(global-unset-key (kbd "<up>"))
-(global-unset-key (kbd "<down>"))
+;; I give up this. Arrow keys are fantastic.
+;; (global-unset-key (kbd "<left>"))
+;; (global-unset-key (kbd "<right>"))
+;; (global-unset-key (kbd "<up>"))
+;; (global-unset-key (kbd "<down>"))
 
 (global-set-key (kbd "<C-tab>") 'company-complete)
 (global-set-key (kbd "C-x g") 'magit-status)
