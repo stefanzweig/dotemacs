@@ -40,3 +40,8 @@ flycheck_*.el
 
 # projectiles files
 .projectile
+
+bookmarks
+places
+recentf
+vendor/yasnippet/
