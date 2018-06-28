@@ -2,8 +2,9 @@
 
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
-(define-key global-map "\C-cl" 'org-store-link)
-(define-key global-map "\C-ca" 'org-agenda)
+;; (define-key global-map "\C-cl" 'org-store-link)
+;; (define-key global-map "\C-ca" 'org-agenda)
+;; (global-set-key (kbd "C-c r") 'remember)
 (setq org-log-done t)
 
 (setq org-confirm-babel-evaluate nil
@@ -28,7 +29,6 @@
 (setq org-agenda-files (list "~/org/agenda.org"))
 (setq org-default-notes-file "~/org/notes.org")
 
-(global-set-key (kbd "C-c r") 'remember)
 (setq org-capture-templates
       '(("j" "Journal" entry (file+datetree "~/org/journal.org")
          "** %^{Heading}")))
