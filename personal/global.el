@@ -77,3 +77,8 @@
                "~/.emacs.d/vendor/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
+
+
+;; date format
+(setq system-time-locale "C")
+(format-time-string "%Y-%m-%d %a")
