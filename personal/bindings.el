@@ -60,8 +60,6 @@
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy.
 (global-set-key (kbd "<f4>") 'yank) ; paste.
 
-(global-set-key (kbd "<f6>") 'org-capture)
-(global-set-key (kbd "<f7>") 'org-agenda)
 ;; indenting and alignment
 (global-set-key (kbd "<f8>")  'indent-region)
 (global-set-key (kbd "C-<f8>") 'align)
@@ -71,18 +69,14 @@
 ;; <f10> for system use
 (global-set-key (kbd "<f11>") 'prelude-copy-file-name-to-clipboard)
 (global-set-key (kbd "C-<f11>") 'xah-search-current-word)
-
-;; Personal textmate.el bindings
-(global-set-key (kbd "C-c f") 'textmate-goto-file)
-(global-set-key [(control return)] 'textmate-next-line)
+(global-set-key (kbd "<f12>") 'org-agenda)
+(global-set-key (kbd "C-<f12>") 'org-capture)
 
 ;; Tags
 (global-set-key (kbd "M-,") 'pop-tag-mark) ; was tags-loop-continue
 
 ;; Goto Line
 (global-set-key [remap goto-line] 'goto-line-with-feedback)
-
-(global-set-key (kbd "s-\\") 'fixup-whitespace)
 
 ;; Help teach to unlearn the arrow keys
 ;; I give up this. Arrow keys are fantastic.
