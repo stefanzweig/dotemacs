@@ -40,3 +40,11 @@
                       (org-agenda-sorting-strategy
                        (quote ((agenda time-up priority-down tag-up))))
                       (org-deadline-warning-days 0)))))))
+
+
+(setq org-todo-keywords
+      (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
+              (sequence "WAIT(w@/!)" "APPT(a@/!)" "|" "CNCL(c@/!)" "DFRD(f@/)"))))
+
+;; Hide leading stars
+(setq org-hide-leading-stars t)
